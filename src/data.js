@@ -200,6 +200,306 @@ export const siteData = {
       ],
       tools: ["LaTeX", "Mendeley / Zotero", "Overleaf", "Google Scholar"],
       fee: "PKR 15,000"
+    },
+    {
+      id: "math-9-10",
+      category: "School and College Academic Courses",
+      title: "Mathematics for Grade 9 and 10",
+      shortDescription: "Concept-based preparation for Grade 9 and 10 mathematics, including problem-solving, exam practice, and board-style questions.",
+      overview: "Get concept-based, step-by-step preparation for Grade 9 and 10 Mathematics. This course covers everything from algebraic foundations to geometry and trigonometry, ensuring a thorough understanding of concepts and ample exam practice with board-style questions.",
+      duration: "Ongoing / Flexible",
+      level: "Grade 9 & 10",
+      mode: "Online Live",
+      whoShouldJoin: "Students in Grade 9 and 10 aiming to build strong mathematical foundations and score exceptionally well in board exams.",
+      syllabus: [
+        "Algebra, Matrices, and Determinants",
+        "Logarithms, Sets, and Functions",
+        "Geometry, Theorems, and Practical Geometry",
+        "Trigonometry and Exam-Style Question Practice"
+      ],
+      outcomes: [
+        "Solve complex algebraic and geometric problems systematically.",
+        "Apply mathematical formulas and theorems with clear understanding.",
+        "Tackle board-style exam papers under timed conditions.",
+        "Establish a rock-solid mathematical base for future studies."
+      ],
+      tools: ["Whiteboard Lectures", "Concept Notes", "Past Papers"],
+      fee: "PKR 10,000"
+    },
+    {
+      id: "physics-9-10",
+      category: "School and College Academic Courses",
+      title: "Physics for Grade 9 and 10",
+      shortDescription: "Clear explanation of core physics concepts, numerical practice, diagrams, and exam-oriented preparation for Grade 9 and 10.",
+      overview: "Master the foundations of physics. This course offers clear explanations of physical laws, rigorous numerical problem-solving practice, diagram construction, and exam-oriented preparation tailored for Grade 9 and 10 students.",
+      duration: "Ongoing / Flexible",
+      level: "Grade 9 & 10",
+      mode: "Online Live",
+      whoShouldJoin: "9th and 10th grade students seeking to demystify physics concepts and excel in theoretical and numerical board examinations.",
+      syllabus: [
+        "Physical Quantities, Measurement, and Kinematics",
+        "Dynamics, Forces, and Gravitation",
+        "Work, Energy, and Properties of Matter",
+        "Waves, Electromagnetism, and Atomic Physics"
+      ],
+      outcomes: [
+        "Explain physical laws, principles, and concepts clearly.",
+        "Solve numerical calculations and application-based questions.",
+        "Draw clean, well-labeled physics diagrams for exam marks.",
+        "Apply physical theories to real-world observations."
+      ],
+      tools: ["Interactive Simulations", "Physics Notes", "Past Papers"],
+      fee: "PKR 10,000"
+    },
+    {
+      id: "physics-11-12",
+      category: "School and College Academic Courses",
+      title: "Physics for Grade 11 and 12",
+      shortDescription: "Intermediate-level physics covering concepts, derivations, numerical problems, and exam-focused preparation for Grade 11 and 12.",
+      overview: "Bridge the gap between introductory physics and advanced university science. This intermediate-level course deep-dives into mathematical derivations, multi-step numerical calculations, advanced theoretical physics, and exam-focused preparations for Grade 11 and 12 (FSc / A-Level).",
+      duration: "Ongoing / Flexible",
+      level: "Grade 11 & 12",
+      mode: "Online Live",
+      whoShouldJoin: "Students in Grade 11 and 12 (FSc Pre-Engineering/Pre-Medical or A-Levels) preparing for board and entry test (MDCAT/ECAT) examinations.",
+      syllabus: [
+        "Vectors, Equilibrium, Motion, and Work",
+        "Rotational Dynamics, Fluid Mechanics, and Thermodynamics",
+        "Electrostatics, Current Electricity, and Electromagnetism",
+        "Modern Physics, Electronics, and Nuclear Physics"
+      ],
+      outcomes: [
+        "Master complex physical derivations and mathematical proofs.",
+        "Solve advanced college-level physics numerical problems.",
+        "Gain strong foundations for university engineering and medical entrance tests.",
+        "Analyze modern physics concepts with deep critical thinking."
+      ],
+      tools: ["Concept Slides", "Numerical Workbooks", "Board Past Papers"],
+      fee: "PKR 10,000"
+    },
+    {
+      id: "biology-9-10",
+      category: "School and College Academic Courses",
+      title: "Biology for Grade 9 and 10",
+      shortDescription: "Foundation-level biology with clear explanations, diagrams, short questions, long questions, and board exam preparation.",
+      overview: "Develop a deep fascination with life sciences. This course provides comprehensive foundation-level biology instruction, using descriptive visual materials, diagram drawing guides, and strategic practice of short and long-form board exam questions.",
+      duration: "Ongoing / Flexible",
+      level: "Grade 9 & 10",
+      mode: "Online Live",
+      whoShouldJoin: "9th and 10th grade students aiming to score full marks in descriptive board biology exams.",
+      syllabus: [
+        "Introduction to Biology & Cell Structures",
+        "Biodiversity and Enzymes",
+        "Bioenergetics and Human Nutrition",
+        "Gaseous Exchange, Transport, and Mock Exams"
+      ],
+      outcomes: [
+        "Draw and label biological diagrams accurately and efficiently.",
+        "Write comprehensive, high-scoring answers to board-style questions.",
+        "Understand cellular mechanisms, physiology, and ecosystems.",
+        "Establish a solid base for advanced pre-medical intermediate studies."
+      ],
+      tools: ["Biological Models", "Visual Slides", "Exam Worksheets"],
+      fee: "PKR 10,000"
+    },
+    {
+      id: "biology-11-12",
+      category: "School and College Academic Courses",
+      title: "Biology for Grade 11 and 12",
+      shortDescription: "Intermediate biology support covering core concepts, diagrams, important topics, and exam preparation for Grade 11 and 12.",
+      overview: "Prepare for a career in medicine. This advanced biology support course covers the complex biological mechanisms, molecular genetics, evolutionary biology, and detailed physiology required for intermediate college board exams and medical college admission tests (MDCAT).",
+      duration: "Ongoing / Flexible",
+      level: "Grade 11 & 12",
+      mode: "Online Live",
+      whoShouldJoin: "Pre-medical students in Grade 11 and 12 looking to secure top marks in college boards and competitive university entry tests.",
+      syllabus: [
+        "Cell Structure, Biological Molecules, and Enzymes",
+        "Bioenergetics and Kingdom Diversity",
+        "Human Physiology: Digestion, Circulation, and Immunity",
+        "Coordination, Genetics, Biotechnology, and Evolution"
+      ],
+      outcomes: [
+        "Explain complex biochemical and physiological pathways.",
+        "Label and explain highly detailed biological diagrams.",
+        "Demonstrate deep knowledge in cellular biology, genetics, and ecology.",
+        "Confidently answer advanced analytical and MDCAT-level biology questions."
+      ],
+      tools: ["Interactive Models", "Conceptual Slide Decks", "MDCAT Practice Papers"],
+      fee: "PKR 10,000"
+    },
+    {
+      id: "islamic-tarbiah",
+      category: "Islamic Short Courses",
+      title: "Islamic Tarbiah",
+      shortDescription: "Character building, Islamic manners, daily duas, basic Islamic values, and practical guidance for children and young learners.",
+      overview: "Nurture strong moral and spiritual foundations. This interactive Tarbiah class focuses on moral development, beautiful Islamic manners (Adaab), memorization of essential daily Duas, and understanding core faith-driven values through storytelling and practical daily guidance.",
+      duration: "Ongoing / Flexible",
+      level: "Beginner",
+      mode: "Online Live",
+      whoShouldJoin: "Children, youth, and young learners seeking basic character-building and practical Islamic ethics.",
+      syllabus: [
+        "Adaab (Manners) of Daily Life: Parents, Elders, and Friends",
+        "Essential Daily Duas and Sunnah Practices",
+        "Pillars of Islam and Stories of the Prophets",
+        "Practical Character Building and Moral Values"
+      ],
+      outcomes: [
+        "Integrate basic Islamic etiquette (Adaab) into daily behavior.",
+        "Recite and apply crucial daily Duas and Sunnah practices.",
+        "Articulate foundational values of honesty, kindness, and respect.",
+        "Foster a deep personal love and connection with Islamic teachings."
+      ],
+      tools: ["Moral Storybooks", "Dua Audio Packs", "Interactive Worksheets"],
+      fee: "PKR 10,000"
+    },
+    {
+      id: "basic-arabic",
+      category: "Islamic Short Courses",
+      title: "Basic Arabic",
+      shortDescription: "Beginner-friendly Arabic reading, vocabulary, pronunciation, simple sentences, and foundational understanding.",
+      overview: "Unlock the language of the Quran. This beginner-friendly course teaches correct Arabic pronunciation (Tajweed foundations), alphabet recognition, reading fluidly, building a fundamental vocabulary, and constructing simple conversational sentences.",
+      duration: "4 Weeks",
+      level: "Beginner",
+      mode: "Online Live",
+      whoShouldJoin: "Students, adults, and anyone starting from absolute scratch wishing to read, pronounce, and understand basic Arabic.",
+      syllabus: [
+        "Arabic Alphabet Recognition & Pronunciation (Makharij)",
+        "Joining Letters, Vowels, and Reading Simple Words",
+        "Essential Daily Vocabulary and Noun-Verb Basics",
+        "Constructing Simple Sentences and Common Phrases"
+      ],
+      outcomes: [
+        "Identify, write, and pronounce all Arabic letters correctly.",
+        "Read simple classical and conversational Arabic texts.",
+        "Use basic everyday vocabulary and greet others in Arabic.",
+        "Understand the syntactic structure of basic Quranic phrases."
+      ],
+      tools: ["Interactive Qaida", "Vocabulary Flashcards", "Pronunciation Guides"],
+      fee: "PKR 10,000"
+    },
+    {
+      id: "hadith-lessons",
+      category: "Islamic Short Courses",
+      title: "Hadith Lessons",
+      shortDescription: "Simple and practical lessons from selected Hadith with explanation, manners, daily life application, and moral learning.",
+      overview: "Learn from the timeless wisdom of Prophet Muhammad (PBUH). Explore selected authentic Ahadith, focusing on their historical contexts, practical daily applications, character refinement, and life-changing moral teachings.",
+      duration: "4 Weeks",
+      level: "Beginner",
+      mode: "Online Live",
+      whoShouldJoin: "Learners of all ages seeking practical ethical guidance and wisdom from the Sunnah.",
+      syllabus: [
+        "Introduction to Hadith and the Importance of Sunnah",
+        "Hadith on Intentions, Honesty, and Good Character",
+        "Hadith on Kindness, Brotherhood, and Rights of Neighbors",
+        "Hadith on Seeking Knowledge and Daily Life Refinement"
+      ],
+      outcomes: [
+        "Explain the moral lessons and contexts of selected Ahadith.",
+        "Implement prophetic teachings directly into daily family and social life.",
+        "Understand the basic methodology of Hadith compilation and authenticity.",
+        "Improve personal character, mindfulness, and community service."
+      ],
+      tools: ["Hadith Translations", "Life Application Sheets", "Discussion Prompts"],
+      fee: "PKR 10,000"
+    },
+    {
+      id: "fcps-mentoring",
+      category: "Medical Career Counselling and Professional Guidance",
+      title: "FCPS Mentoring",
+      shortDescription: "Guidance for FCPS preparation, study planning, exam strategy, topic prioritization, and career direction.",
+      overview: "Succeed in your post-graduate medical exams. Get personalized, structured guidance for FCPS Part 1 or Part 2 preparation, including customized study planning, time-saving exam strategies, smart topic prioritization, and specialty-wise career direction.",
+      duration: "Flexible",
+      level: "Professional",
+      mode: "Mentoring",
+      whoShouldJoin: "Doctors preparing for their FCPS examinations and residency planning.",
+      syllabus: [
+        "FCPS Syllabus Analysis & Core Material Selection",
+        "Study Timeline & High-Yield Topic Prioritization",
+        "Paper Attempting Techniques & MCQ Strategy",
+        "Specialty Alignment & Career Progression Planning"
+      ],
+      outcomes: [
+        "Formulate a customized, daily and weekly study roadmap.",
+        "Focus study time on proven high-yield exam sections.",
+        "Master specific MCQ solving and time-management techniques.",
+        "Align PG training pathways for career progression."
+      ],
+      tools: ["High-Yield Subject Maps", "Exam Dashboards", "One-to-One Strategy Calls"],
+      fee: "PKR 15,000"
+    },
+    {
+      id: "mcps-mentoring",
+      category: "Medical Career Counselling and Professional Guidance",
+      title: "MCPS Mentoring",
+      shortDescription: "Structured mentoring for MCPS candidates, including preparation strategy, topic guidance, and exam planning.",
+      overview: "Navigate your MCPS exam pathway with expert insight. Get structured, customized mentoring for MCPS candidacy, covering optimized preparation schedules, high-yield topic definitions, clinical case discussion frameworks, and comprehensive exam planning.",
+      duration: "Flexible",
+      level: "Professional",
+      mode: "Mentoring",
+      whoShouldJoin: "Postgraduate medical diploma candidates aiming to streamline their MCPS exam preparation.",
+      syllabus: [
+        "MCPS Exam Layout and Eligibility Review",
+        "Targeted Resource Recommendation and Study Schedule",
+        "Clinical Practice Guidelines and Case Study Reviews",
+        "OSCE and Written Exam Preparation Strategies"
+      ],
+      outcomes: [
+        "Develop an efficient study timeline fitting busy work shifts.",
+        "Master clinical guidelines and case-solving methodologies.",
+        "Perform confidently in OSCE clinical stations.",
+        "Mitigate exam stress through simulated planning."
+      ],
+      tools: ["Study Schedules", "OSCE Prep Checklists", "Case Discussion Handouts"],
+      fee: "PKR 15,000"
+    },
+    {
+      id: "mrcp-mentoring",
+      category: "Medical Career Counselling and Professional Guidance",
+      title: "MRCP Mentoring",
+      shortDescription: "Mentoring for MRCP preparation, study schedule, exam approach, resources, and career guidance.",
+      overview: "Fast-track your UK medical license and international qualifications. Receive professional mentoring for MRCP Part 1, Part 2, or PACES, covering complete study schedules, exam structures, high-yield digital question banks, PACES station frameworks, and general UK NHS career pathway guidance.",
+      duration: "Flexible",
+      level: "Professional",
+      mode: "Mentoring",
+      whoShouldJoin: "International Medical Graduates (IMGs) and junior doctors preparing for MRCP exams to build a career in the UK/abroad.",
+      syllabus: [
+        "MRCP Exam Structure & UK NHS Pathways Overview",
+        "High-Yield Question Bank Selection & Study Routines",
+        "PACES Strategy: Communication, History, and Clinical Stations",
+        "PLAB vs MRCP Strategy & CV Building for the NHS"
+      ],
+      outcomes: [
+        "Understand the complete MRCP examination pathway and timeline.",
+        "Practice high-yield clinical reasoning used in MRCP questions.",
+        "Master the clinical and communication skills required for PACES.",
+        "Plan the NHS career pathways (residency, fellowship) efficiently."
+      ],
+      tools: ["NHS Pathway Map", "PACES Mock Templates", "IMG Resources List"],
+      fee: "PKR 15,000"
+    },
+    {
+      id: "medical-career-mentorship",
+      category: "Medical Career Counselling and Professional Guidance",
+      title: "Medical Career Mentorship",
+      shortDescription: "General mentoring for doctors and medical students regarding exams, career planning, research direction, and professional development.",
+      overview: "Map out a meaningful and successful medical career. Receive comprehensive one-on-one professional mentorship covering local and international exam options (USMLE, PLAB, MRCP, FCPS), customized clinical CV building, identifying medical research opportunities, and maintaining work-life balance during residency.",
+      duration: "Flexible",
+      level: "All Levels",
+      mode: "Mentoring",
+      whoShouldJoin: "Medical students, fresh MBBS graduates, and junior house officers seeking long-term career planning.",
+      syllabus: [
+        "Global Medical Career Pathways: Comparative Analysis",
+        "Clinical CV Building and Research Methodology",
+        "House Job Navigation and Specialty Selection",
+        "Work-Life Balance, Burnout Prevention, and Career Longevity"
+      ],
+      outcomes: [
+        "Choose the right local or international postgraduate pathway confidently.",
+        "Construct a professional and standout clinical and research CV.",
+        "Identify and initiate medical research papers and case reports.",
+        "Navigate medical careers with reduced burnout and clear benchmarks."
+      ],
+      tools: ["Career Planning Worksheets", "CV Templates", "Research Starter Guide"],
+      fee: "PKR 15,000"
     }
   ],
   services: [
@@ -220,6 +520,19 @@ export const siteData = {
     "agentic-ai-llm": [],
     "data-analytics": [],
     "cv-basics": [],
-    "research-mentorship": []
+    "research-mentorship": [],
+    "math-9-10": [],
+    "physics-9-10": [],
+    "physics-11-12": [],
+    "biology-9-10": [],
+    "biology-11-12": [],
+    "islamic-tarbiah": [],
+    "basic-arabic": [],
+    "hadith-lessons": [],
+    "fcps-mentoring": [],
+    "mcps-mentoring": [],
+    "mrcp-mentoring": [],
+    "medical-career-mentorship": []
   }
 };
+

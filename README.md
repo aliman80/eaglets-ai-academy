@@ -1,6 +1,6 @@
-# Dr. Ali AI Academy Website
+# Eaglets AI Academy Website
 
-This repository contains the complete frontend codebase for the Dr. Ali AI Academy website. It is built using **React, Vite, and Vanilla CSS** to ensure a high-performance, SEO-friendly, and highly customizable academic platform.
+This repository contains the complete frontend codebase for the Eaglets AI Academy website. It is built using **React, Vite, and Vanilla CSS** to ensure a high-performance, SEO-friendly, and highly customizable academic platform.
 
 ## 1. Website Copy & Content Management
 All website copy, including the About section, course details, research mentorship services, and testimonials, are centralized in `src/data.js`. 
@@ -63,7 +63,7 @@ Phase 1 (Current): Static site, manual registration via email, manual fee collec
 ---
 ### Running Locally
 ```bash
-cd ali-ai-academy
+cd eaglets-ai-academy
 npm install
 npm run dev
 ```

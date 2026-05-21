@@ -16,11 +16,16 @@ const Courses = () => {
       
       <section className="section bg-white">
         <div className="container">
-          <div className="grid grid-cols-3">
-            {siteData.courses.map(course => (
-              <CourseCard key={course.id} course={course} />
-            ))}
-          </div>
+          {[...new Set(siteData.courses.map(c => c.category))].map(category => (
+            <div key={category} style={{marginBottom: '4rem'}}>
+              <h2 style={{borderBottom: '2px solid var(--primary-color)', paddingBottom: '0.5rem', marginBottom: '2rem'}}>{category}</h2>
+              <div className="grid grid-cols-3">
+                {siteData.courses.filter(c => c.category === category).map(course => (
+                  <CourseCard key={course.id} course={course} />
+                ))}
+              </div>
+            </div>
+          ))}
         </div>
       </section>
     </div>

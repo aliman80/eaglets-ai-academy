@@ -1,5 +1,5 @@
 {
-  "name": "ali-ai-academy",
+  "name": "eaglets-ai-academy",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -29,5 +29,5 @@
     "globals": "^17.6.0",
     "vite": "^8.0.12"
   },
-  "homepage": "https://aliman80.github.io/ali-ai-academy"
+  "homepage": "https://aliman80.github.io/eaglets-ai-academy"
 }

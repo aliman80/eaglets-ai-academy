@@ -24,13 +24,20 @@ const CourseCard = ({ course }) => {
             <span>{course.mode}</span>
           </div>
         </div>
+
+        <div className="course-fee-container">
+          <span className="course-fee-label">Course Fee</span>
+          <span className="course-fee-amount">{course.fee || 'PKR 10,000'}</span>
+        </div>
       </div>
       
       <div className="course-card-actions">
-        <Link to={`/courses/${course.id}`} className="btn btn-outline" style={{width: '100%'}}>View Details</Link>
+        <Link to={`/register?course=${course.id}`} className="btn btn-primary btn-enroll">Enroll Now</Link>
+        <Link to={`/courses/${course.id}`} className="btn btn-outline btn-details">View Details</Link>
       </div>
     </div>
   );
 };
 
 export default CourseCard;
+

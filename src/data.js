@@ -26,187 +26,180 @@ export const siteData = {
     international: "Price to be confirmed depending on topic, expert, and duration"
   },
   courses: [
-    // --- AI, Research, and Technical Courses ---
     {
-      id: "ai-ml",
-      category: "AI, Research, and Technical Courses",
-      title: "Artificial Intelligence and Machine Learning",
-      shortDescription: "Build real-world ML models and understand the math behind them.",
-      overview: "Step into the world of predictive modeling. We cover regression, classification, clustering, and model evaluation techniques using real-world datasets.",
-      duration: "6 Weeks",
-      level: "All Levels",
-      mode: "Online Live",
-      whoShouldJoin: "Anyone looking to transition into data science.",
-      syllabus: [
-        "Intro to ML & Supervised Learning",
-        "Linear & Logistic Regression",
-        "Decision Trees & Random Forests",
-        "Model Evaluation & Hyperparameter Tuning"
-      ]
-    },
-    {
-      id: "cv-vlm",
-      category: "AI, Research, and Technical Courses",
-      title: "Computer Vision & Vision-Language Models",
-      shortDescription: "Learn image processing, object detection, and state-of-the-art VLMs.",
-      overview: "Dive deep into deep learning for vision tasks, covering advanced CNN architectures, image segmentation, and modern Vision-Language Models.",
-      duration: "8 Weeks",
-      level: "Intermediate/Advanced",
-      mode: "Online Live",
-      whoShouldJoin: "Enthusiasts wanting to build advanced vision systems.",
-      syllabus: [
-        "Image Processing with OpenCV",
-        "Advanced CNN Architectures",
-        "Object Detection and Segmentation",
-        "Introduction to Vision-Language Models"
-      ]
-    },
-    {
-      id: "python-basics",
-      category: "AI, Research, and Technical Courses",
-      title: "Python Programming for Beginners",
-      shortDescription: "Master Python programming from scratch with a focus on data science.",
-      overview: "This course covers everything from basic syntax to advanced libraries like NumPy and Pandas. Perfect for absolute beginners.",
+      id: "python-beginners",
+      category: "Programming and AI",
+      title: "Python for Beginners",
+      shortDescription: "Learn Python basics, variables, loops, functions, files, and simple problem-solving.",
+      overview: "Get a solid foundation in Python, the most popular language for data science and AI. This course takes you from absolute scratch to writing robust scripts, solving computational problems, and working with data files.",
       duration: "4 Weeks",
       level: "Beginner",
       mode: "Online Live",
-      whoShouldJoin: "Beginners, university students, and non-tech professionals.",
+      whoShouldJoin: "Absolute beginners, students, professionals looking to automate tasks, or anyone starting their AI journey.",
       syllabus: [
-        "Python Basics & Data Structures",
-        "Functions, OOP, and Error Handling",
-        "Data Analysis with Pandas & NumPy",
-        "Data Visualization"
-      ]
+        "Variables, Data Types, and Operators",
+        "Control Flow: Conditionals and Loops",
+        "Functions, Modules, and Error Handling",
+        "File I/O and Introduction to NumPy/Pandas"
+      ],
+      outcomes: [
+        "Write modular, clean Python code from scratch.",
+        "Read, write, and manipulate data files dynamically.",
+        "Understand core programming concepts like variables, loops, and logic.",
+        "Build a foundation for advanced data analysis and machine learning."
+      ],
+      tools: ["Python", "VS Code", "Jupyter Notebook"],
+      fee: "PKR 10,000"
     },
     {
-      id: "ai-tools",
-      category: "AI, Research, and Technical Courses",
-      title: "AI Tools for Students and Researchers",
-      shortDescription: "Leverage Large Language Models (LLMs) and Prompt Engineering.",
-      overview: "Understand how models like ChatGPT and Claude work. Learn to responsibly use AI tools for literature review, drafting, and productivity.",
-      duration: "4 Weeks",
-      level: "All Levels",
-      mode: "Online Live",
-      whoShouldJoin: "Students and professionals looking to automate workflows.",
-      syllabus: [
-        "Intro to Generative AI & Prompt Engineering",
-        "AI Tools for Literature Review",
-        "Responsible AI usage in academia",
-        "Building custom GPT assistants"
-      ]
-    },
-    {
-      id: "research-writing",
-      category: "AI, Research, and Technical Courses",
-      title: "Research Paper Writing & Thesis Guidance",
-      shortDescription: "A complete guide to formulating research ideas and publishing.",
-      overview: "Learn the strategies used by PhD scholars to read literature, write methodology sections, format with LaTeX, and navigate peer-review.",
-      duration: "4 Weeks",
+      id: "ml-foundations",
+      category: "Programming and AI",
+      title: "Machine Learning Foundations",
+      shortDescription: "Learn supervised learning, classification, regression, model evaluation, and practical ML workflows.",
+      overview: "Understand how machines learn from data. Dive deep into supervised learning techniques, learn how to prepare datasets, train classification and regression models, and rigorously evaluate their performance.",
+      duration: "6 Weeks",
       level: "Intermediate",
       mode: "Online Live",
-      whoShouldJoin: "MS/PhD students and early-career researchers.",
+      whoShouldJoin: "Aspiring data scientists, software engineers transitioning to AI, and students with basic Python knowledge.",
       syllabus: [
-        "Literature Review & Finding a Gap",
-        "Structuring the Research Paper or Thesis",
-        "Academic Writing & LaTeX Basics",
-        "The Peer Review & Publication Process"
-      ]
-    },
-    
-    // --- School and College Academic Courses ---
-    {
-      id: "physics-o-level", category: "School and College Academic Courses",
-      title: "Physics for O Level & A Level",
-      shortDescription: "Comprehensive Physics curriculum covering core concepts and exam preparation.",
-      overview: "Designed for O/A Level students to build a strong foundational understanding of physics principles, problem-solving, and practical applications.",
-      duration: "Ongoing", level: "High School", mode: "Online Live",
-      whoShouldJoin: "O Level and A Level students.",
-      syllabus: ["Mechanics and Kinematics", "Waves and Optics", "Electricity and Magnetism", "Past Paper Practice"]
+        "Introduction to Machine Learning & Data Preprocessing",
+        "Regression Models: Linear and Logistic Regression",
+        "Classification: Decision Trees and Random Forests",
+        "Model Evaluation, Validation, and Hyperparameter Tuning"
+      ],
+      outcomes: [
+        "Clean, preprocess, and prepare raw data for training.",
+        "Implement regression and classification models.",
+        "Use Scikit-Learn to build and deploy ML pipelines.",
+        "Evaluate models using precision, recall, and ROC-AUC metrics."
+      ],
+      tools: ["Python", "Scikit-Learn", "Pandas", "NumPy", "Matplotlib"],
+      fee: "PKR 10,000"
     },
     {
-      id: "physics-9-10", category: "School and College Academic Courses",
-      title: "Physics for 9th & 10th Class",
-      shortDescription: "Board-focused physics lessons simplifying complex concepts.",
-      overview: "Interactive sessions to help matriculation students understand theoretical physics and ace their board exams.",
-      duration: "Ongoing", level: "High School", mode: "Online Live",
-      whoShouldJoin: "9th and 10th Class students.",
-      syllabus: ["Physical Quantities", "Dynamics", "Thermal Properties", "Electromagnetism"]
+      id: "dl-pytorch",
+      category: "Programming and AI",
+      title: "Deep Learning with PyTorch",
+      shortDescription: "Learn neural networks, loss functions, training loops, CNNs, and practical PyTorch implementation.",
+      overview: "Master the leading framework for deep learning research and industry. Build, train, and debug neural networks, write custom training loops, implement Convolutional Neural Networks (CNNs) for vision tasks, and deploy models.",
+      duration: "8 Weeks",
+      level: "Advanced",
+      mode: "Online Live",
+      whoShouldJoin: "Developers, researchers, and advanced students who want to build custom deep learning architectures.",
+      syllabus: [
+        "Tensors & PyTorch Autograd Fundamentals",
+        "Building Neural Networks: Linear Layers and Activation Functions",
+        "Optimizers, Loss Functions, and Custom Training Loops",
+        "Convolutional Neural Networks (CNNs) for Computer Vision"
+      ],
+      outcomes: [
+        "Manipulate high-dimensional PyTorch tensors efficiently.",
+        "Write custom training, validation, and evaluation loops.",
+        "Build feedforward neural networks and CNNs in PyTorch.",
+        "Debug and optimize model gradients and training performance."
+      ],
+      tools: ["Python", "PyTorch", "Google Colab", "Jupyter"],
+      fee: "PKR 10,000"
     },
     {
-      id: "math-9-10", category: "School and College Academic Courses",
-      title: "Mathematics for 9th & 10th Class",
-      shortDescription: "Step-by-step mathematical problem solving and board prep.",
-      overview: "Clear, structured math lessons covering algebra, geometry, and trigonometry to ensure high grades.",
-      duration: "Ongoing", level: "High School", mode: "Online Live",
-      whoShouldJoin: "9th and 10th Class students.",
-      syllabus: ["Algebraic Expressions", "Geometry and Theorems", "Trigonometry Basics", "Mock Exams"]
+      id: "agentic-ai-llm",
+      category: "Programming and AI",
+      title: "Agentic AI and LLM Applications",
+      shortDescription: "Learn how to use LLMs, tools, agents, RAG, and automation for real-world AI applications.",
+      overview: "Step into the cutting edge of AI. Learn how to build intelligent agents that use Large Language Models, leverage external tools, execute complex workflows, perform Retrieval-Augmented Generation (RAG), and automate enterprise tasks.",
+      duration: "6 Weeks",
+      level: "All Levels",
+      mode: "Online Live",
+      whoShouldJoin: "Developers, product managers, and AI enthusiasts wanting to build production-grade LLM applications.",
+      syllabus: [
+        "Introduction to LLMs, API Integrations, and Prompt Engineering",
+        "Retrieval-Augmented Generation (RAG) and Vector Databases",
+        "Building LLM Agents: ReAct Framework and Tool Use",
+        "Multi-Agent Orchestration and Production Workflows"
+      ],
+      outcomes: [
+        "Integrate state-of-the-art LLMs (OpenAI, Anthropic, Gemini) via APIs.",
+        "Build RAG pipelines with semantic search and vector stores.",
+        "Create autonomous AI agents capable of reasoning and tool execution.",
+        "Deploy multi-agent workflows for complex task automation."
+      ],
+      tools: ["Python", "LangChain / LangGraph", "OpenAI API", "ChromaDB", "CrewAI"],
+      fee: "PKR 10,000"
     },
     {
-      id: "biology-9-10", category: "School and College Academic Courses",
-      title: "Biology for 9th & 10th Class",
-      shortDescription: "Engaging biology lessons focusing on core life sciences.",
-      overview: "Detailed study of cells, human physiology, and ecosystems tailored for board exams.",
-      duration: "Ongoing", level: "High School", mode: "Online Live",
-      whoShouldJoin: "9th and 10th Class students.",
-      syllabus: ["Cell Biology", "Human Physiology", "Genetics", "Ecology"]
+      id: "data-analytics",
+      category: "Programming and AI",
+      title: "Data Analytics and Dashboards",
+      shortDescription: "Learn Excel/CSV analysis, Python pandas, visualization, and dashboard-building concepts.",
+      overview: "Turn raw data into actionable business insights. Learn how to parse CSV/Excel files, perform data cleaning and aggregation in Pandas, create stunning visualizations, and build interactive dashboards.",
+      duration: "4 Weeks",
+      level: "Beginner",
+      mode: "Online Live",
+      whoShouldJoin: "Business analysts, marketers, students, and anyone looking to learn data aggregation and presentation.",
+      syllabus: [
+        "Data Wrangling: Reading Excel/CSV with Pandas",
+        "Data Cleaning, Filtering, and GroupBy Aggregations",
+        "Data Visualization with Seaborn and Plotly",
+        "Building Interactive Dashboards with Streamlit"
+      ],
+      outcomes: [
+        "Clean and parse noisy, real-world spreadsheet data.",
+        "Perform complex aggregations and queries in Pandas.",
+        "Generate publication-quality charts and graphs.",
+        "Build and host an interactive, web-based data dashboard."
+      ],
+      tools: ["Python", "Pandas", "Seaborn", "Plotly", "Streamlit"],
+      fee: "PKR 10,000"
     },
     {
-      id: "biology-fsc", category: "School and College Academic Courses",
-      title: "Biology for First & Second Year",
-      shortDescription: "Advanced biology covering the intermediate curriculum.",
-      overview: "In-depth preparation for FSc pre-medical students focusing on botany, zoology, and MDCAT foundations.",
-      duration: "Ongoing", level: "College", mode: "Online Live",
-      whoShouldJoin: "FSc Pre-Medical students.",
-      syllabus: ["Homeostasis", "Support and Movement", "Coordination and Control", "Evolution and Genetics"]
-    },
-
-    // --- Medical Career Counselling and Professional Guidance ---
-    {
-      id: "mbbs-counselling", category: "Medical Career Counselling and Professional Guidance",
-      title: "MBBS Admission Counselling & Career Guidance",
-      shortDescription: "Expert advice on securing medical admissions and career planning.",
-      overview: "Personalized guidance for pre-medical students on choosing the right medical colleges and understanding the admission process.",
-      duration: "Flexible", level: "All Levels", mode: "Mentoring",
-      whoShouldJoin: "Pre-medical students and parents.",
-      syllabus: ["MDCAT Strategy", "College Selection", "Interview Prep", "Alternative Medical Careers"]
-    },
-    {
-      id: "medical-exams", category: "Medical Career Counselling and Professional Guidance",
-      title: "Guidance for MRCP, FRCP, MCPS & FRCS",
-      shortDescription: "Strategic planning for postgraduate medical examinations.",
-      overview: "Targeted mentoring for doctors pursuing international and local professional exams (MRCP, FRCP, MCPS, FRCS Ireland/England).",
-      duration: "Flexible", level: "Professional", mode: "Mentoring",
-      whoShouldJoin: "Doctors preparing for professional exams.",
-      syllabus: ["Exam Pathways & Eligibility", "Study Strategy & Resource Selection", "Time Management", "Clinical Station Preparation"]
+      id: "cv-basics",
+      category: "Programming and AI",
+      title: "Computer Vision Basics",
+      shortDescription: "Learn image classification, object detection, segmentation basics, and real-world CV applications.",
+      overview: "Learn how computers see. Study the foundational principles of image processing, feature extraction, and leverage pre-trained deep learning models for classification, detection, and segmentation.",
+      duration: "6 Weeks",
+      level: "Beginner",
+      mode: "Online Live",
+      whoShouldJoin: "Aspiring computer vision engineers, robotics enthusiasts, and software developers.",
+      syllabus: [
+        "Image Processing Fundamentals with OpenCV",
+        "Image Classification using Pre-trained CNNs",
+        "Object Detection with YOLO",
+        "Image Segmentation and Real-World Applications"
+      ],
+      outcomes: [
+        "Perform image manipulations and pixel transformations in OpenCV.",
+        "Deploy state-of-the-art YOLO models for real-time object detection.",
+        "Implement pre-trained CNNs for classification tasks.",
+        "Understand the workflow of modern commercial vision systems."
+      ],
+      tools: ["Python", "OpenCV", "YOLO", "PyTorch", "Hugging Face"],
+      fee: "PKR 10,000"
     },
     {
-      id: "medical-planning", category: "Medical Career Counselling and Professional Guidance",
-      title: "General Medical Career Planning & Study Strategy",
-      shortDescription: "Long-term career mapping for medical professionals.",
-      overview: "Advice on building a strong medical CV, choosing a specialty, and planning a successful career trajectory.",
-      duration: "Flexible", level: "Professional", mode: "Mentoring",
-      whoShouldJoin: "Medical students and junior doctors.",
-      syllabus: ["CV Building", "Specialty Selection", "Research in Medicine", "Work-Life Balance"]
-    },
-
-    // --- Islamic Short Courses ---
-    {
-      id: "hadith-tafseer", category: "Islamic Short Courses",
-      title: "Hadith & Tafseer Short Course",
-      shortDescription: "A respectful and simple introduction to Quranic exegesis and Prophetic traditions.",
-      overview: "Understand the context and meanings of selected Surahs and Ahadith to apply their wisdom in daily life.",
-      duration: "4 Weeks", level: "Beginner", mode: "Online Live",
-      whoShouldJoin: "Learners interested in Islamic short courses.",
-      syllabus: ["Introduction to Tafseer", "Selected Short Surahs", "Introduction to Hadith Terminology", "Key Prophetic Traditions"]
-    },
-    {
-      id: "tarbiyah", category: "Islamic Short Courses",
-      title: "Tarbiyah Islamia & Character Building",
-      shortDescription: "Basic Islamic character-building and family learning sessions.",
-      overview: "Focuses on moral development, family ethics, and building a strong, faith-driven character in the modern world.",
-      duration: "4 Weeks", level: "Beginner", mode: "Online Live",
-      whoShouldJoin: "Families, youth, and all learners.",
-      syllabus: ["Islamic Morals and Ethics", "Family Rights and Duties", "Spiritual Purification", "Navigating Modern Challenges"]
+      id: "research-mentorship",
+      category: "Research and Mentoring",
+      title: "Research Mentorship",
+      shortDescription: "One-to-one guidance for research direction, paper reading, experiment planning, academic writing, and publication preparation.",
+      overview: "Work one-on-one with Dr. Ali to navigate your MS/PhD research or professional publication journey. This highly personalized mentorship provides strategic guidance across literature review, methodology selection, experiment planning, academic paper writing, LaTeX formatting, and navigating peer review.",
+      duration: "Flexible",
+      level: "All Levels",
+      mode: "Mentoring",
+      whoShouldJoin: "MS/PhD scholars, undergraduate thesis students, and professionals pursuing research publications.",
+      syllabus: [
+        "Research Gap Identification & Topic Selection",
+        "Literature Synthesis & Research Methodology Formulation",
+        "Experimental Setup, Validation, and Metric Selection",
+        "Academic Writing, LaTeX Formatting & Submission Strategy"
+      ],
+      outcomes: [
+        "Formulate a novel and publishable research topic.",
+        "Synthesize existing research to write a bulletproof literature review.",
+        "Design rigorous, reproducible, and verifiable experiment setups.",
+        "Draft, format, and structure academic papers for high-impact venues."
+      ],
+      tools: ["LaTeX", "Mendeley / Zotero", "Overleaf", "Google Scholar"],
+      fee: "PKR 15,000"
     }
   ],
   services: [
@@ -219,5 +212,14 @@ export const siteData = {
   testimonials: [
     { id: 1, name: "Ahmed S.", role: "MS Student", text: "Dr. Ali's deep learning course was a game-changer. He explained complex math concepts with incredible simplicity." },
     { id: 2, name: "Sarah K.", role: "Data Analyst", text: "I transitioned into AI thanks to the Practical ML course. The focus on real-world projects helped me crack my first tech interview." }
-  ]
+  ],
+  lectures: {
+    "python-beginners": [],
+    "ml-foundations": [],
+    "dl-pytorch": [],
+    "agentic-ai-llm": [],
+    "data-analytics": [],
+    "cv-basics": [],
+    "research-mentorship": []
+  }
 };

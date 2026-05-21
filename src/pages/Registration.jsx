@@ -23,6 +23,13 @@ const Registration = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
+  useEffect(() => {
+    if (defaultCourse) {
+      setFormData(prev => ({ ...prev, course: defaultCourse }));
+    }
+  }, [defaultCourse]);
+
+
   // Standard HTML form submission
 
   return (

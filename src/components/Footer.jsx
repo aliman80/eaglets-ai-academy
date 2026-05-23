@@ -26,11 +26,12 @@ const Footer = () => {
           <h4>Contact Us</h4>
           <ul>
             <li>Email: {siteData.contact.email}</li>
-            <li>WhatsApp: {siteData.contact.whatsapp}</li>
+            <li>WhatsApp: <a href={`https://wa.me/92${siteData.contact.whatsapp.replace(/^0/, '')}`} target="_blank" rel="noopener noreferrer" style={{color: 'var(--secondary-color)', fontWeight: 'bold'}}>{siteData.contact.whatsapp}</a></li>
             <li>Location: {siteData.contact.location}</li>
             <li><a href={siteData.contact.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn Profile</a></li>
           </ul>
         </div>
+
       </div>
       
       <div className="footer-bottom">

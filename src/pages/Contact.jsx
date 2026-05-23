@@ -39,9 +39,17 @@ const Contact = () => {
               <Phone className="icon" size={24} />
               <div>
                 <h4>WhatsApp</h4>
-                <p>{siteData.contact.whatsapp}</p>
+                <p style={{ margin: 0 }}>
+                  <a href={`https://wa.me/92${siteData.contact.whatsapp.replace(/^0/, '')}`} target="_blank" rel="noopener noreferrer" style={{color: 'var(--secondary-color)', fontWeight: 'bold', textDecoration: 'underline'}}>
+                    {siteData.contact.whatsapp}
+                  </a>
+                </p>
+                <a href={`https://wa.me/92${siteData.contact.whatsapp.replace(/^0/, '')}`} target="_blank" rel="noopener noreferrer" className="btn btn-accent mt-2" style={{display: 'inline-flex', alignItems: 'center', gap: '0.5rem', backgroundColor: '#25D366', borderColor: '#25D366', color: 'white', padding: '0.5rem 1rem', fontSize: '0.9rem'}}>
+                  Chat on WhatsApp
+                </a>
               </div>
             </div>
+
             
             <div className="info-item mt-4">
               <MapPin className="icon" size={24} />

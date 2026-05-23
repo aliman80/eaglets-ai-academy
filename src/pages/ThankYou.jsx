@@ -44,8 +44,12 @@ const ThankYou = () => {
               </div>
               
               <p className="mt-4 text-sm" style={{color: 'var(--primary-color)', fontWeight: '500'}}>
-                After transferring, please share the receipt screenshot on our WhatsApp: {siteData.contact.whatsapp}
+                After transferring, please share the receipt screenshot on our WhatsApp:{' '}
+                <a href={`https://wa.me/92${siteData.contact.whatsapp.replace(/^0/, '')}`} target="_blank" rel="noopener noreferrer" style={{color: 'var(--secondary-color)', textDecoration: 'underline'}}>
+                  {siteData.contact.whatsapp}
+                </a>
               </p>
+
             </div>
           </div>
           
